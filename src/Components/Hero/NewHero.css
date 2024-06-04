@@ -1,0 +1,103 @@
+.nav-buttons Button{
+ border: 1px solid black;
+ width: 150px;
+ height: 70px;
+ margin-top: 15px;
+ margin-right: 10px;
+ margin-left: 5rem;
+}
+
+.nav-buttons {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+@media (max-width: 767px) {
+  .nav-buttons Button {
+    width: 400px;
+    margin-right: 130px;
+  }
+}
+
+
+
+.hero-img {
+   
+}
+.hero-text {
+    font-size: 35px;
+    width: 500px;
+    padding-left: 1rem;
+}
+
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 3rem;
+  }
+
+  .hero-column {
+    padding-top: 3rem;
+  }
+
+  .background-wrapper {
+    background-color:  #a8c3cb;
+    height: 90%;
+    width: 100%;
+    padding-left: 10px;
+
+  }
+
+.Carousel {
+    width: 1000px;
+    padding-top: 5rem;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+.current-offers {
+  padding-top: 4rem;
+  background-color: rgb(230, 239, 239);
+  text-align: center; 
+  margin-bottom: 40px;
+  
+}
+.carousel-text {
+color: rgb(255, 255, 255);
+font-size: 50px;
+padding-bottom: 340px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+  .hero-column {
+   width: 620px;
+  }
+  .hero-text {
+    font-size: 20px;
+    margin-left: 70px;
+    padding-bottom: 50px;
+  }
+  .hero-img {
+    padding-bottom: 35px;
+    padding-right: 20px;
+  }
+  .Carousel {
+    max-width: 500px; 
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .carousel-container {
+    max-width: 600px; 
+  }
+  .hero-column {
+    padding-left: 70px;
+  }
+}
